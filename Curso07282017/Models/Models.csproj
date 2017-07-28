@@ -48,6 +48,8 @@
     <Compile Include="MathCalculator.cs" />
     <Compile Include="MathCourse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpanishCalculator.cs" />
+    <Compile Include="SpanishCourse.cs" />
     <Compile Include="StudentGrades.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
