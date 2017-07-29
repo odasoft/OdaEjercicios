@@ -14,6 +14,12 @@ namespace Business
         public CourseCalculatorFactory()
         {
             Container = new Dictionary<Type, GradeCalculator>();
+            Container.Add(typeof(MathCourse), new MathCalculator());
+        }
+
+        public GradeCalculator GetCourseCalculator(GradeableCourse gradeableCourse)
+        {
+            return Container[gradeableCourse.GetType()];
         }
     }
 }
