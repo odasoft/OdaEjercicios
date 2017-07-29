@@ -8,5 +8,6 @@ namespace Models
 {
     public class StudentGrades
     {
+        public GradeableCourse Course { get; set; }
     }
 }
