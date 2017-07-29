@@ -9,5 +9,8 @@ namespace Models
     public class StudentGrades
     {
         public GradeableCourse Course { get; set; }
+        public decimal ExamenGrade { get; set; }
+        public decimal AttendanceGrade { get; set; }
+        public decimal HomeWorkGrade { get; set; }
     }
 }

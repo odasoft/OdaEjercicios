@@ -13,12 +13,12 @@ namespace Models
         public decimal ExposureOfThemes { get; set; }
         public BiologyCourse()
         {
-            ExamenCriteria = 5;
-            HomeworkCriteria = 4;
-            AttendanceCriteria = 2;
+            ExamenCriteria = 30;
+            HomeworkCriteria = 5;
+            AttendanceCriteria = 5;
 
-            LabPractices = 4;
-            ExposureOfThemes = 4;
+            LabPractices = 20;
+            ExposureOfThemes = 40;
         }
     }
 }

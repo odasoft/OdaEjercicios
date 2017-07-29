@@ -10,7 +10,11 @@ namespace Models
     {
         public decimal CalculateGrade(StudentGrades studentGrade)
         {
-            throw new NotImplementedException();
+            var grade = (BiologyStudentGrade)studentGrade;
+
+
+
+            return 0;
         }
     }
 }
