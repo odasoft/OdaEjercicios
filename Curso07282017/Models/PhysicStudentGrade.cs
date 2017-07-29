@@ -8,5 +8,6 @@ namespace Models
 {
     public class PhysicStudentGrade: StudentGrades
     {
+        public decimal PresentationGrade { set; get; }
     }
 }

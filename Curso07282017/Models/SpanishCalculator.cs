@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class SpanishCalculator
+    public class SpanishCalculator : IGradeCalculator
     {
+
+        public decimal CalculateGrade(StudentGrades studentGrade)
+        {
+            return 0;
+        }
     }
 }
