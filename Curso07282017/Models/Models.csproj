@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpanishCalculator.cs" />
     <Compile Include="SpanishCourse.cs" />
+    <Compile Include="SpanishStudentGrades.cs" />
     <Compile Include="StudentGrades.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
