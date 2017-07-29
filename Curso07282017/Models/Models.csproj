@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Biology.cs" />
+    <Compile Include="BiologyCourse.cs" />
     <Compile Include="BiologyCalculator.cs" />
+    <Compile Include="BiologyStudentGrade.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="GradeableCourse.cs" />
     <Compile Include="GradeCalculator.cs" />

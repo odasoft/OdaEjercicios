@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class MathCalculator : GradeCalculator
+    public class MathCalculator : IGradeCalculator
     {
-        public override decimal CalculateGrade(GradeableCourse gradeableCourse)
+
+        public decimal CalculateGrade(StudentGrades studentGrade)
         {
             throw new NotImplementedException();
         }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public abstract class GradeCalculator
+    public interface IGradeCalculator
     {
-        public abstract decimal CalculateGrade(StudentGrade studentGrade);
+        decimal CalculateGrade(StudentGrades studentGrade);
     }
 }
