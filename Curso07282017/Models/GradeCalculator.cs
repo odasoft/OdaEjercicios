@@ -8,6 +8,6 @@ namespace Models
 {
     public abstract class GradeCalculator
     {
-        public abstract decimal CalculateGrade(GradeableCourse gradeableCourse);
+        public abstract decimal CalculateGrade(StudentGrade studentGrade);
     }
 }
