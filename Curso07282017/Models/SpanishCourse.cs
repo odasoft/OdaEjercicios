@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class SpanishCourse
+    public class SpanishCourse : GradeableCourse
     {
+        public decimal EssayCriteria { get; set; }
+        public decimal ConversationCriteria { get; set; }
+
+        public SpanishCourse()
+        {
+            ExamenCriteria = 10;
+            HomeworkCriteria = 10;
+            AttendanceCriteria = 10;
+            EssayCriteria = 10;
+            ConversationCriteria = 10;
+        }
+
+
     }
 }
