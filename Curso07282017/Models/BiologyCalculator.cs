@@ -10,11 +10,11 @@ namespace Models
     {
         public decimal CalculateGrade(StudentGrades studentGrade)
         {
-            var grade = (BiologyStudentGrade)studentGrade;
-
-
-
-            return 0;
+            BiologyStudentGrade grade = (BiologyStudentGrade)studentGrade;
+            BiologyCourse course = grade.Course as BiologyCourse;
+            return course.AttendanceCriteria * grade.AttendanceGrade+
+                course.ExamenCriteria * grade.ExamenGrade + 
+                course.HomeworkCriteria * grade.HomeWorkGrade;
         }
     }
 }
