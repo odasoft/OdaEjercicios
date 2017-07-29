@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class BiologyCalculator
+    public class BiologyCalculator : GradeCalculator
     {
-
+        public override decimal CalculateGrade(GradeableCourse gradeableCourse)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
