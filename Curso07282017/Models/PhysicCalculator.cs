@@ -17,7 +17,7 @@ namespace Models
                 physicCourse.ExamenCriteria * physicStudentGrade.ExamenGrade +
                 physicCourse.HomeworkCriteria * physicStudentGrade.HomeWorkGrade +
                 physicCourse.AttendanceCriteria * physicStudentGrade.AttendanceGrade +
-                physicCourse.PresentationCriteria * physicStudentGrade.z +
+                physicCourse.PresentationCriteria * physicStudentGrade.PresentationGrade;
 
         }
     }
