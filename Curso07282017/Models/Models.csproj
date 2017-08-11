@@ -48,6 +48,10 @@
     <Compile Include="GradeCalculator.cs" />
     <Compile Include="MathCalculator.cs" />
     <Compile Include="MathCourse.cs" />
+    <Compile Include="MathStudentGrade.cs" />
+    <Compile Include="PhysicCalculator.cs" />
+    <Compile Include="PhysicCourse.cs" />
+    <Compile Include="PhysicStudentGrade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpanishCalculator.cs" />
     <Compile Include="SpanishCourse.cs" />
