@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class MathStudentGrade : StudentGrade
+    public class MathStudentGrade : StudentGrades
     {
         public decimal ExcerciseGrade { get; set; }
         public decimal ParticipationGrade { get; set; }
