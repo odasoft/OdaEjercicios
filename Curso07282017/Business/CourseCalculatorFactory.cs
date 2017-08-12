@@ -18,6 +18,7 @@ namespace Business
             Container.Add(typeof(BiologyCourse), new BiologyCalculator());
             Container.Add(typeof(PhysicCourse), new PhysicCalculator());
             Container.Add(typeof(SpanishCourse), new SpanishCalculator());
+            Container.Add(typeof(HistoryCourse), new HistoryCalculator());
         }
 
         public IGradeCalculator GetCourseCalculator(GradeableCourse gradeableCourse)
