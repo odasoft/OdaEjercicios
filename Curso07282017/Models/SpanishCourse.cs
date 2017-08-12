@@ -11,13 +11,13 @@ namespace Models
         public decimal EssayCriteria { get; set; }
         public decimal ConversationCriteria { get; set; }
 
-        public SpanishCourse()
+        public SpanishCourse(decimal examenCriteria, decimal homeworkCriteria, decimal attendanceCriteria, decimal essayCriteria, decimal conversationCriteria)
         {
-            ExamenCriteria = 10;
-            HomeworkCriteria = 10;
-            AttendanceCriteria = 10;
-            EssayCriteria = 10;
-            ConversationCriteria = 10;
+            ExamenCriteria = examenCriteria;
+            HomeworkCriteria = homeworkCriteria;
+            AttendanceCriteria = attendanceCriteria;
+            EssayCriteria = essayCriteria;
+            ConversationCriteria = conversationCriteria;
         }
 
 

@@ -9,15 +9,18 @@ namespace Business
 {
     public class CourseCalculatorFactory
     {
-        private Dictionary<Type, GradeCalculator> Container { get; set; }
+        private Dictionary<Type, IGradeCalculator> Container { get; set; }
 
         public CourseCalculatorFactory()
         {
-            Container = new Dictionary<Type, GradeCalculator>();
+            Container = new Dictionary<Type, IGradeCalculator>();
             Container.Add(typeof(MathCourse), new MathCalculator());
+            Container.Add(typeof(BiologyCourse), new BiologyCalculator());
+            Container.Add(typeof(PhysicCourse), new PhysicCalculator());
+            Container.Add(typeof(SpanishCourse), new SpanishCalculator());
         }
 
-        public GradeCalculator GetCourseCalculator(GradeableCourse gradeableCourse)
+        public IGradeCalculator GetCourseCalculator(GradeableCourse gradeableCourse)
         {
             return Container[gradeableCourse.GetType()];
         }
