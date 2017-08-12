@@ -46,12 +46,20 @@
     <Compile Include="Course.cs" />
     <Compile Include="GradeableCourse.cs" />
     <Compile Include="GradeCalculator.cs" />
+    <Compile Include="HistoryCalculator.cs" />
+    <Compile Include="HistoryCourse.cs" />
+    <Compile Include="HistoryStudentGrade.cs" />
     <Compile Include="MathCalculator.cs" />
     <Compile Include="MathCourse.cs" />
+    <Compile Include="MathStudentGrade.cs" />
+    <Compile Include="PhysicCalculator.cs" />
+    <Compile Include="PhysicCourse.cs" />
+    <Compile Include="PhysicStudentGrade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpanishCalculator.cs" />
     <Compile Include="SpanishCourse.cs" />
     <Compile Include="SpanishStudentGrades.cs" />
+    <Compile Include="StudentGrade.cs" />
     <Compile Include="StudentGrades.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
