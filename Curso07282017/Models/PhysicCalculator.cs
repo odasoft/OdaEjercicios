@@ -11,7 +11,7 @@ namespace Models
         public decimal CalculateGrade(StudentGrades studentGrade)
         {
             PhysicStudentGrade physicStudentGrade = studentGrade as PhysicStudentGrade;
-            PhysicCourse physicCourse = studentGrade.Course as PhysicCourse;
+            PhysicCourse physicCourse = physicStudentGrade.Course as PhysicCourse;
 
             return
                 physicCourse.ExamenCriteria * physicStudentGrade.ExamenGrade +
